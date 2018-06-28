@@ -33,7 +33,7 @@ define('DB_USER', 'mifammlyco_USER');
 define('DB_PASSWORD', 'mifampassword');
 
 /** MySQL hostname */
-define('DB_HOST', '82.81.41.125');
+define('DB_HOST', '81.218.83.105');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
