@@ -1,0 +1,908 @@
+
+
+
+<?php
+if(isset($_POST['gender'])){
+	file_put_contents('emailTest.txt', 'data');
+	exit;
+}
+echo $message = '<form method="POST" action="http://api-wp.mly.co.il/email.php">  
+<div class="WordSection1">
+
+<p class="MsoNormal" align="center" style="text-align:center"><u><span style="font-size:10.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#222222">Customer
+Satisfaction Survey (anonymous survey)</span></u></p>
+
+
+
+<p class="MsoNormal"><span style="font-size:10.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:#222222">General Background:</span></p>
+<br>
+<p class="MsoNormal"><span style="font-size:10.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:#222222">Age: <input type="text" name="Age"></span></p>
+<br>
+<p class="MsoNormal"><span style="font-size:10.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:#222222">Year Diagnosed: <input type="text" name="Year_Diagnosed"></span></p>
+<br>
+<p class="MsoNormal"><span style="font-size:10.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:#222222">Diabetes Type: <input type="text" name="Diabetes_Type"></span></p>
+
+<p class="MsoNormal"><span style="font-size:10.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:#222222">&nbsp;</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span dir="LTR"></span>Did you use a different meter before you began using MyDario?</p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-bottom:8.0pt;line-height:
+105%">
+
+  <input type="radio" name="Q1" value="YES"> YES<br>
+  <input type="radio" name="Q1" value="NO"> YES<br>
+
+</p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-bottom:8.0pt;line-height:
+105%">&nbsp;</p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span dir="LTR"></span>How much do you measure with MyDario compared to other meters
+you previously used?</p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0"  style="width:600px;border-collapse:collapse;">
+ <tbody><tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:solid windowtext 1.0pt;
+  border-left:solid windowtext 1.0pt;border-bottom:none;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><a name="_Hlk513568723"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">1</span></b></a></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">2</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">3</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">4</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">5</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+
+  <input type="radio" name="Q2" value="Much less"> Much less<br>
+
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+<input type="radio" name="Q2" value="Less"> Less<br>
+
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+<input type="radio" name="Q2" value="The same amount"> The same amount<br>
+
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+		<input type="radio" name="Q2" value="More"> More<br>
+
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q2" value="Much more"> Much more<br>
+  </span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span style="font-size:10.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:#222222">&nbsp;</span></p>
+
+<p class="MsoNormal"><span style="font-size:10.5pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:#222222">&nbsp;</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span dir="LTR"></span>Please rank the following features:</p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="width:600px;border-collapse:collapse;;">
+ <tbody><tr style="height:44.0pt">
+  <td width="123" valign="top" style="width:92.35pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:44.0pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">Feature</p>
+  </td>
+  <td width="260" valign="top" style="width:194.75pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:44.0pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">How important is this
+  feature?</p>
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">(1&nbsp;is “not
+  important at all”, 3 is neutral and 5 is “very&nbsp;important”)</p>
+  </td>
+  <td width="235" valign="top" style="width:176.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:44.0pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">How much do you like this
+  feature?</p>
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">(1&nbsp;is “I don’t
+  like it at all&nbsp;», 3 is neutral and 5 is”I love this feature&nbsp;»</p>
+  </td>
+ </tr>
+ <tr style="height:44.65pt">
+  <td width="123" valign="top" style="width:92.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:44.65pt">
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">Compact device</p>
+  </td>
+  <td width="260" valign="top" style="width:194.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:44.65pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q3" value="1"></td>
+<td>2<input type="radio" name="Q3" value="2"></td>
+<td>3<input type="radio" name="Q3" value="3"></td>
+<td>4<input type="radio" name="Q3" value="4"></td>
+<td>5<input type="radio" name="Q3" value="5"></td>
+</tr>
+</tbody>
+</table>
+
+  </p>
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">&nbsp;</p>
+  </td>
+  <td width="235" valign="top" style="width:176.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:44.65pt">
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q4" value="1"></td>
+<td>2<input type="radio" name="Q4" value="2"></td>
+<td>3<input type="radio" name="Q4" value="3"></td>
+<td>4<input type="radio" name="Q4" value="4"></td>
+<td>5<input type="radio" name="Q4" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+ </tr>
+ <tr style="height:22.95pt">
+  <td width="123" valign="top" style="width:92.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">Portable device</p>
+  </td>
+  <td width="260" valign="top" style="width:194.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q5" value="1"></td>
+<td>2<input type="radio" name="Q5" value="2"></td>
+<td>3<input type="radio" name="Q5" value="3"></td>
+<td>4<input type="radio" name="Q5" value="4"></td>
+<td>5<input type="radio" name="Q5" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+  <td width="235" valign="top" style="width:176.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q6" value="1"></td>
+<td>2<input type="radio" name="Q6" value="2"></td>
+<td>3<input type="radio" name="Q6" value="3"></td>
+<td>4<input type="radio" name="Q6" value="4"></td>
+<td>5<input type="radio" name="Q6" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+ </tr>
+ <tr style="height:22.95pt">
+  <td width="123" valign="top" style="width:92.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">Automated Data logging </p>
+  </td>
+  <td width="260" valign="top" style="width:194.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q7" value="1"></td>
+<td>2<input type="radio" name="Q7" value="2"></td>
+<td>3<input type="radio" name="Q7" value="3"></td>
+<td>4<input type="radio" name="Q7" value="4"></td>
+<td>5<input type="radio" name="Q7" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+  <td width="235" valign="top" style="width:176.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q8" value="1"></td>
+<td>2<input type="radio" name="Q8" value="2"></td>
+<td>3<input type="radio" name="Q8" value="3"></td>
+<td>4<input type="radio" name="Q8" value="4"></td>
+<td>5<input type="radio" name="Q8" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+ </tr>
+ <tr style="height:22.95pt">
+  <td width="123" valign="top" style="width:92.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">Hypo alert with GPS integration</p>
+  </td>
+  <td width="260" valign="top" style="width:194.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q9" value="1"></td>
+<td>2<input type="radio" name="Q9" value="2"></td>
+<td>3<input type="radio" name="Q9" value="3"></td>
+<td>4<input type="radio" name="Q9" value="4"></td>
+<td>5<input type="radio" name="Q9" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+  <td width="235" valign="top" style="width:176.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+	<table style=" width: 100%; ">
+	<tbody>
+	<tr>
+	<td>1<input type="radio" name="Q10" value="1"></td>
+	<td>2<input type="radio" name="Q10" value="2"></td>
+	<td>3<input type="radio" name="Q10" value="3"></td>
+	<td>4<input type="radio" name="Q10" value="4"></td>
+	<td>5<input type="radio" name="Q10" value="5"></td>
+	</tr>
+	</tbody>
+	</table>
+  </p>
+  </td>
+ </tr>
+ <tr style="height:22.95pt">
+  <td width="123" valign="top" style="width:92.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">Interactive content
+  &amp; notifications in the app</p>
+  </td>
+  <td width="260" valign="top" style="width:194.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q11" value="1"></td>
+<td>2<input type="radio" name="Q11" value="2"></td>
+<td>3<input type="radio" name="Q11" value="3"></td>
+<td>4<input type="radio" name="Q11" value="4"></td>
+<td>5<input type="radio" name="Q11" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+  <td width="235" valign="top" style="width:176.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q12" value="1"></td>
+<td>2<input type="radio" name="Q12" value="2"></td>
+<td>3<input type="radio" name="Q12" value="3"></td>
+<td>4<input type="radio" name="Q12" value="4"></td>
+<td>5<input type="radio" name="Q12" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+ </tr>
+ <tr style="height:22.95pt">
+  <td width="123" valign="top" style="width:92.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">Ability to share
+  results with my &nbsp;family and caregivers via the app</p>
+  </td>
+  <td width="260" valign="top" style="width:194.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q13" value="1"></td>
+<td>2<input type="radio" name="Q13" value="2"></td>
+<td>3<input type="radio" name="Q13" value="3"></td>
+<td>4<input type="radio" name="Q13" value="4"></td>
+<td>5<input type="radio" name="Q13" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+  <td width="235" valign="top" style="width:176.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q14" value="1"></td>
+<td>2<input type="radio" name="Q14" value="2"></td>
+<td>3<input type="radio" name="Q14" value="3"></td>
+<td>4<input type="radio" name="Q14" value="4"></td>
+<td>5<input type="radio" name="Q14" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+ </tr>
+ <tr style="height:22.95pt">
+  <td width="123" valign="top" style="width:92.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">Other</p>
+  </td>
+  <td width="260" valign="top" style="width:194.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q15" value="1"></td>
+<td>2<input type="radio" name="Q15" value="2"></td>
+<td>3<input type="radio" name="Q15" value="3"></td>
+<td>4<input type="radio" name="Q15" value="4"></td>
+<td>5<input type="radio" name="Q15" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+  <td width="235" valign="top" style="width:176.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:22.95pt">
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+  margin-bottom:8.0pt;margin-left:0cm;line-height:105%">
+<table style=" width: 100%; ">
+<tbody>
+<tr>
+<td>1<input type="radio" name="Q16" value="1"></td>
+<td>2<input type="radio" name="Q16" value="2"></td>
+<td>3<input type="radio" name="Q16" value="3"></td>
+<td>4<input type="radio" name="Q16" value="4"></td>
+<td>5<input type="radio" name="Q16" value="5"></td>
+</tr>
+</tbody>
+</table>
+  </p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;line-height:105%">&nbsp;</p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span dir="LTR"></span>What is your overall satisfaction with Dario?</p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="width:600px;border-collapse:collapse;">
+ <tbody><tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:solid windowtext 1.0pt;
+  border-left:solid windowtext 1.0pt;border-bottom:none;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">1</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">2</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">3</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">4</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">5</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-top:2.0pt;margin-right:0cm;
+  margin-bottom:2.0pt;margin-left:0cm;text-align:center"><span style="font-size:9.0pt;color:black">
+
+
+<input type="radio" name="Q17" value="Very Dissatisfied">Very Dissatisfied
+
+</span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-top:2.0pt;margin-right:0cm;
+  margin-bottom:2.0pt;margin-left:0cm;text-align:center"><span style="font-size:9.0pt;color:black">
+  
+<input type="radio" name="Q17" value="Dissatisfied">Dissatisfied
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-top:2.0pt;margin-right:0cm;
+  margin-bottom:2.0pt;margin-left:0cm;text-align:center"><span style="font-size:9.0pt;color:black">
+  
+<input type="radio" name="Q17" value="Neutral">Neutral
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-top:2.0pt;margin-right:0cm;
+  margin-bottom:2.0pt;margin-left:0cm;text-align:center"><span style="font-size:9.0pt;color:black">
+  
+<input type="radio" name="Q17" value="Satisfied">Satisfied
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="margin-top:2.0pt;margin-right:0cm;
+  margin-bottom:2.0pt;margin-left:0cm;text-align:center"><span style="font-size:9.0pt;color:black">
+  
+<input type="radio" name="Q17" value="Very Satisfied">Very Satisfied
+  </span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:0cm;line-height:105%">&nbsp;</p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:0cm;line-height:105%"><br>
+Please indicate how much you agree with the following statements:</p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-bottom:8.0pt;line-height:
+105%">&nbsp;</p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span dir="LTR"></span>«&nbsp;Compared to other meters I find it easier to use MyDario
+to share my blood glucose readings with my doctor&nbsp;»</p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="width:600px;border-collapse:collapse;">
+ <tbody><tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:solid windowtext 1.0pt;
+  border-left:solid windowtext 1.0pt;border-bottom:none;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">1</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">2</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">3</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">4</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">5</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  Strongly disagree
+	<input type="radio" name="Q18" value="Strongly disagree">Strongly disagree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+<input type="radio" name="Q18" value="disagree">disagree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+   
+	<input type="radio" name="Q18" value="Neither agree nor disagree">Neither agree nor disagree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q18" value="agree">agree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q18" value="Strongly agree">Strongly agree
+  </span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-bottom:8.0pt;line-height:105%">&nbsp;</p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">6.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span dir="LTR"></span>«&nbsp;Compared to other meters, MyDario has made it easier to stay
+in my personal In-Range zone&nbsp;»</p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="width:600px;border-collapse:collapse;">
+ <tbody><tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:solid windowtext 1.0pt;
+  border-left:solid windowtext 1.0pt;border-bottom:none;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">1</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">2</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">3</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">4</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">5</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q19" value="Strongly disagree">Strongly disagree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q19" value="disagree">disagree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+
+   
+	<input type="radio" name="Q19" value="Neither agree nor disagree">Neither agree nor disagree
+
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+<input type="radio" name="Q19" value="Neither agree nor agree">Neither agree nor agree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q19" value="Strongly agree">Strongly agree
+
+  </span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormalCxSpLast" style="margin-bottom:8.0pt;line-height:105%">&nbsp;</p>
+
+<p class="MsoListParagraph" style="margin-top:0cm;margin-right:0cm;margin-bottom:
+8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%"><a name="_Hlk512867618">7.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span dir="LTR"></span>«&nbsp;Since I started using MyDario I have become
+more productive at work&nbsp;»</a></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="width:600px;border-collapse:collapse;">
+ <tbody><tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:solid windowtext 1.0pt;
+  border-left:solid windowtext 1.0pt;border-bottom:none;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">1</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">2</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">3</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">4</span></b></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">5</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="119" valign="top" style="width:89.25pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q20" value="Strongly disagree">Strongly disagree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q20" value="disagree">disagree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.25pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+   
+   <input type="radio" name="Q20" value="Neither agree nor disagree">Neither agree nor disagree
+
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+
+  
+	<input type="radio" name="Q20" value="agree">agree
+  </span></p>
+  </td>
+  <td width="119" valign="top" style="width:89.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#EEECE1;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-size:9.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;color:black">
+  
+	<input type="radio" name="Q20" value="Strongly agree">Strongly agree
+  </span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoListParagraph" style="margin-bottom:8.0pt;line-height:105%">&nbsp;</p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoListParagraph" style="margin-top:0cm;margin-right:0cm;margin-bottom:
+8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">8.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span dir="LTR"></span>How likely are you to recommend the Dario product to a friend or
+colleague? (0-10) </p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="width:600px;border-collapse:collapse;">
+ <tbody><tr style="height:27.3pt">
+  <td width="55" style="width:41.5pt;border:solid windowtext 1.0pt;border-right:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+
+	<input type="radio" name="Q21" value="0">0
+
+  </span></b></p>
+  </td>
+  <td width="55" style="width:41.5pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="1">0
+
+  </span></b></p>
+  </td>
+  <td width="55" style="width:41.5pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="2">2
+
+  </span></b></p>
+  </td>
+  <td width="55" style="width:41.5pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="3">3
+  </span></b></p>
+  </td>
+  <td width="50" style="width:37.3pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="4">4
+  </span></b></p>
+  </td>
+  <td width="50" style="width:37.3pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="5">5
+  </span></b></p>
+  </td>
+  <td width="50" style="width:37.3pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="6">6
+  </span></b></p>
+  </td>
+  <td width="54" style="width:40.85pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="7">7
+  </span></b></p>
+  </td>
+  <td width="54" style="width:40.85pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="8">8
+  </span></b></p>
+  </td>
+  <td width="54" style="width:40.85pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="9">9
+  </span></b></p>
+  </td>
+  <td width="61" style="width:45.9pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:27.3pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+	<input type="radio" name="Q21" value="10">10
+  </span></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoListParagraphCxSpFirst">&nbsp;</p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">9.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span dir="LTR"></span>Do you have any further comments, feedback or product features
+that you would like to share or request from the Dario team? <br>
+
+</p>
+<p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">9.
+</p>
+<textarea name="Q22" rows="10" style="width:600px;border-collapse:collapse;">
+</textarea>
+
+</div>
+<p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:8.0pt;margin-left:18.0pt;text-indent:-18.0pt;line-height:105%">
+<input type="submit" value="Submit">
+</p>
+</form>
+';
+
+
+$to = 'zur@mly.co.il,Neta-Lee@mydario.com';
+$subject = 'zur.mly.co.il';
+$from = 'zur@mly.co.il';
+ 
+// To send HTML mail, the Content-type header must be set
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+ 
+// Create email headers
+$headers .= 'From: '.$from."\r\n".
+    'Reply-To: '.$from."\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+ 
+// Compose a simple HTML email message
+
+ 
+// Sending email
+if(mail($to, $subject, $message, $headers)){
+    echo 'Your mail has been sent successfully.';
+} else{
+    echo 'Unable to send email. Please try again.';
+}
+?>

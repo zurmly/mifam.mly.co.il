@@ -1,0 +1,417 @@
+<?php /* Template Name: digital testing */ ?>
+
+<?php
+get_header();
+$user = get_userdata(get_current_user_id());
+
+//Telephone
+
+if(!empty(get_field('tel', 'user_'.$user->ID))){
+  $user_tel = get_field('tel', 'user_'.$user->ID);
+  $user_tel_placeholder = '';
+}else{
+  $user_tel = '';
+  $user_tel_placeholder="placeholder='טלפון'";
+}
+
+
+
+
+//User full name
+if(!empty($user->first_name) && !empty($user->last_name)){
+  $user_full_name = $user->first_name.' '.$user->last_name;
+  $user_full_name_placeholder = '';
+}else{
+  $user_full_name = '';
+  $user_full_name_placeholder="placeholder='פרטי מנהל הפרויקט'";
+}
+
+
+// var_dump($user);
+// +kint::dump($user);
++kint::dump($user->first_name);
+?>
+<div id="digital-test">
+  <section id="registration-test" v-if="formID == ''">
+      <div class="container" style="width: 700px">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <h1 style="color: #2d68aa;font-size: 40px">בדקו כמה אתם דיגיטליים</h1>
+                  <div style="">
+                      השאלון המובא כאן הוא ניסיון למדוד את הבגרות הדיגיטלית של הרשות המקומית. התוצאות שיתקבלו מבוססות על הערכה עצמית של ממלאי השאלון, ולכן אין להתייחס אליהן כאל מדע מדויק.
+                  </div>
+                  <div style="margin-top: 50px">
+                      רגע לפני שמתחילים... מלאו בבקשה את הפרטים של ממלא השאלון
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="row" style=" margin: 40px 0px;">
+                  <div class="row form-group">
+                      <div class="col-md-4">
+                          <div class="form-group">
+                              <label for="type_of">שם הרשות</label>
+                              <select multiple class="form-control selectpicker" id="type_of" >
+                                  <?php get_select_val("type_of"); ?>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="form-group">
+                              <label for="projectManagerName">פרטי מנהל הפרויקט</label>
+                              <input class="form-control" type="text" <?=$user_full_name_placeholder?> id="projectManagerName"  v-model="projectManagerName" />
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="form-group">
+                              <label for="projectManagerTel">טלפון</label>
+                              <input class="form-control" type="tel" <?=$user_tel_placeholder?> id="projectManagerTel" v-model="projectManagerTel" />
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row form-group">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <input class="form-control" type="text" placeholder="תפקיד" v-model="projectManagerJob" />
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row form-group">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <div class="next-q-btn" @click="registration">מוכנים? מתחילים!</div>
+                          </div>
+                      </div>
+                  </div>
+          </div>
+
+          <div class="row" style=" border-top: 2px solid #e2e2e2;">
+              <div class="col-md-12">
+                  <h3>אז איך זה עובד?</h3>
+                  <p>
+                      הציונים שיינתנו משקפים באופן כללי את מצב הבגרות הדיגיטלית של הרשות, ומאפשרים לכל רשות להבין את הנדרש לקידומה כרשות דיגיטלית. כל ראש רשות יחליט מי יהיו המשתתפים בסקר, אשר ימלאו את השאלונים. מומלץ להעביר את השאלון לחברי ההנהלה וכן לבעלי תפקידים נוספים ברשות, אשר לדעתו של ראש הרשות יכולים לתרום לקבלת תמונה מלאה ומדויקת יותר.
+                  </p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <h3>איך מחושב הציון?</h3>
+                  <p>רמת הבגרות הדיגיטלית תקבע ע"י חישוב ממוצע של רמת הבגרות הדיגיטלית שניתנה ע"י כל אחד מממלאי השאלונים בכל אחד מהמימדים.  לכל מימד יש מספר נושאים. עליכם לסמן בכל נושא את המשפט שלדעתכם משקף בצורה נכונה את מצב הרשות שלכם. במידה ולא מצאתם ניסוח מדויק התואם את מצבה של הרשות שלכם בנושא מסוים, יש לבחור את הניסוח הקרוב ביותר להערכתכם או לא לסמן כלל.
+                  </p>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <section id="digital-form" v-show="formID">
+
+      <div class="container" style="">
+
+          <div class="status-bar">
+
+              <div class="col-5">
+                  <status-bar-box id="box0" title="אסטרטגיה דיגיטלית" number="1"></status-bar-box>
+              </div>
+
+              <div class="col-5">
+                  <status-bar-box id="box1" title="אנשים ותרבות ארגונית" number="2"></status-bar-box>
+              </div>
+
+              <div class="col-5">
+                  <status-bar-box id="box2" title="טכנולוגיה ומערכות מידע" number="3"></status-bar-box>
+              </div>
+
+              <div class="col-5">
+                  <status-bar-box id="box3" title="שירותים דיגיטליים ללקוחות" number="4"></status-bar-box>
+              </div>
+
+              <div class="col-5">
+                  <status-bar-box id="box4" title="עיר חכמה" number="5"></status-bar-box>
+              </div>
+          </div>
+
+          <div class="questions-box" >
+              <div class="questions-bar">
+                  <div class="row text-center">
+                      <p>בחר/י את המשפט שמאפיין בצורה הטובה ביותר את הרשות שלך, בנושא הבא:</p>
+                      <br>
+<!--                    <p style=" font-size: 24px;">משפט  6/{{questionNum+1}} : {{Questions[page][questionNum]}}</p>-->
+                        <p style=" font-size: 24px;">{{Questions[page][questionNum]}}</p>
+
+                  </div>
+              </div>
+
+              <div class="answers-bar">
+                  <div class="row">
+                      <div class="col-5">
+                          <div id="answers-num-1" class="answers-num" @click="selectAnswers(1)">1</div>
+                          <div class="answers-text">
+                              אין לרשות תכנית או
+                              אסטרטגיה דיגיטלית
+                          </div>
+                      </div>
+
+                      <div class="col-5">
+                          <div id="answers-num-2" class="answers-num" @click="selectAnswers(2)">2</div>
+                          <div class="answers-text">
+                              אין לרשות תכנית או אסטרטגיה דיגיטלית, הרשות שוקלת לפתח תכנית כזו
+                          </div>
+                      </div>
+                      <div class="col-5">
+                          <div id="answers-num-3" class="answers-num" @click="selectAnswers(3)">3</div>
+                          <div class="answers-text">
+                              הוגדרה תכנית דיגיטלית, קיימת הבנה לנושא
+                          </div>
+                      </div>
+                      <div class="col-5">
+                          <div id="answers-num-4" class="answers-num" @click="selectAnswers(4)">4</div>
+                          <div class="answers-text">
+                              קיימת אסטרטגיה דיגיטלית
+                              ומפת דרכים המתייחסת לכלל השינויים הארגוניים שיידרשו
+                          </div>
+                      </div>
+                      <div class="col-5">
+                          <div id="answers-num-5" class="answers-num" @click="selectAnswers(5)">5</div>
+                          <div class="answers-text">
+                              האסטרטגיה הדיגיטלית משולבת ובלתי ניתנת הפרדה מהחזון והאסטרטגיה הכוללת של הרשות, השירותים דיגיטליים מניעים את פעילות הרשות והמבנה הארגוני
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="next-q">
+                  <div class="next-q-btn" @click="nextQuestion()" >לשאלה הבאה</div>
+                  <div class="next-q-btn  previous-page" @click="previousQuestion()">חזרה</div>
+              </div>
+          </div>
+
+          <div class="next-page-box" style="display: none">
+              <div class="next-page-box-inner text-center">
+                  <span class="glyphicon glyphicon-ok-circle" aria-hidden="true" style=" font-size: 180px; font-weight: normal;"></span>
+                  <p style=" font-size: 36px; margin: 60px 0 140px 0; ">איזה כיף סיימת את המדד הראשון!</p>
+                  <div class="new-q">
+                      <div class="new-q-btn" @click="nextQuestionPage()" >ממשיכים לשלב הבא</div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+</div>
+<script>
+
+$( document ).ready(function() { 
+  // alert(magicalData.userID)
+});  
+
+
+    var statusBarBox =Vue.component('status-bar-box', {
+        data: function () {
+            return {
+                //flipped: false
+            }
+        },
+        props: ['title' , 'number'],
+        template: '\
+          <div class="row-">\
+            <div id="js-flip-2" class="flip">\
+                <div class="card" >\
+                    <div class="face front">\
+                        <div class="col-md-6 s-number">{{number}}</div>\
+                        <div class="col-md-6 s-text">\
+                            {{ title }}<br>\
+                        </div>\
+                    </div>\
+                    <div class="face back">\
+                        הציון שלך ב{{ title }}\
+                        <div class="Grade" style="font-size: 20px"></div>\
+                    </div>\
+                </div>\
+            </div>\
+              <div class="status-lines">\
+                  <div class="status-line status-line-0"></div>\
+                  <div class="status-line status-line-1"></div>\
+                  <div class="status-line status-line-2"></div>\
+                  <div class="status-line status-line-3"></div>\
+                  <div class="status-line status-line-4"></div>\
+              </div>\
+          </div>\
+          '
+    })
+
+    var vm = new Vue({
+        el: '#digital-test', // id of the 'app'
+        data: {
+            typeOf:'',
+            projectManagerName:'<?=$user_full_name?>',
+            projectManagerTel:'<?=$user_tel?>',
+            projectManagerJob:'',
+            answerNum:0,
+            page:0,
+            questionNum:0,
+            Questions: '',
+            userAnswers:new Array(),
+            saveUserAnswers: new Array(),
+            QuestionsIds: '',
+            formID:''
+        },
+        methods: {
+            nextQuestion(){
+                if(this.answer != ''){
+                    //Save and move to the next group if last question
+                    if(this.userAnswers.length == this.Questions[this.page].length){
+                        $('#box'+ this.page +' .status-line-' + this.questionNum + '').show();
+                        $('#box'+ this.page +' #js-flip-2 .card').toggleClass('flipped');
+                        // Grade
+                        var Grade = this.sumGrade(this.userAnswers) / this.userAnswers.length;
+                        var stageUserAnswers = this.userAnswers;
+                        this.saveUserAnswersToDb(stageUserAnswers);
+                        stageUserAnswers.push(Grade);
+                        this.saveUserAnswers.push(stageUserAnswers);
+
+                        $('#box'+ this.page +' .Grade' ).text(Grade);
+                        $('.questions-box').hide();
+                        $('.next-page-box').show();
+
+                    }else {
+                        // alert(this.answer);
+                        var answerID = this.QuestionsIds[this.page][this.answer - 1];
+                        //this.userAnswers.push(answerID);
+                        this.userAnswers[this.questionNum] = answerID;
+                        $('#box'+ this.page +' .status-line-' + this.questionNum + '').show();
+                        $('.answers-num').removeClass('hover');
+
+                        this.answer = '';
+                        this.answerNum++;
+                        this.questionNum++;
+                    }
+                }else{
+                    alert('יש לבחור תשובה');
+                }
+            },
+            selectAnswers(val){
+                this.answer = val;
+                $('.answers-num').removeClass('hover');
+                $('#answers-num-'+val+'').addClass('hover');
+            },
+            nextQuestionPage(){
+                $('.questions-box').show();
+                $('.next-page-box').hide();
+                this.page++;
+                this.answerNum=0;
+                this.questionNum=0;
+                this.userAnswers.length = 0;
+            },
+            sumGrade(arr) {
+              var total=0;
+              for(var i in arr) { total += arr[i]; }
+              return total;  
+            },
+            registration(){
+              var form_data = {
+                token:magicalData.token, 
+                is_ajax: 1,
+                action: 'addToForm_info',
+                Name:this.projectManagerName,
+                Tel:this.projectManagerTel,
+                Job:this.projectManagerJob
+              };
+              $.ajax({
+                   url: magicalData.siteURL +'/wp-content/themes/digital_israel/Digital_wizard/functions.php',
+                   method: 'POST',
+                   data: form_data,
+                   crossDomain: true,
+                   success: function( data ) {
+                      vm.formID = data.New_Record_id;
+                   },
+                   error: function( error ) {
+                       console.log( 'addToForm_info',error );
+                   }
+              });
+            },
+            saveUserAnswersToDb(stageUserAnswers){
+
+                var form_data = {
+                    token:magicalData.token,
+                    is_ajax: 1,
+                    action: 'saveUserAnswersToDb',
+                    USER_ID: magicalData.userID,
+                    // ANSWERS: new Array(1,2,3,4),
+                    ANSWERS: stageUserAnswers,
+                    FORM_INFO_ID: '1'
+                };
+
+                $.ajax({
+                    url: magicalData.siteURL +'/wp-content/themes/digital_israel/Digital_wizard/functions.php',
+                    method: 'POST',
+                    data: form_data,
+                    crossDomain: true,
+                    success: function( data ) {
+                        console.log(data)
+                    },
+                    error: function( error ) {
+                        console.log( 'selectQuestions',error );
+                    }
+                });
+            },
+            previousQuestion(){
+                var oldAnswers = this.userAnswers[this.questionNum - 1];
+                alert(oldAnswers);
+                // var answerID = this.QuestionsIds[this.page][this.answer - 1];
+                // this.userAnswers.push(answerID);
+
+                // this.answer = '';
+                this.answerNum--;
+                this.questionNum--;
+                // alert('#box'+ this.page +' .status-line-' + this.questionNum + '');
+                $('#box'+ this.page +' .status-line-' + this.questionNum + '').hide();
+                $('.answers-num').removeClass('hover');
+                // alert('#answers-num-'+ this.questionNum +'');
+                $('#answers-num-'+ oldAnswers +'').addClass('hover');
+
+            }
+        },
+
+        created: function () {
+            var form_data = {
+                token:magicalData.token,
+                is_ajax: 1,
+                action: 'selectQuestions'
+            };
+            $.ajax({
+                 url: magicalData.siteURL +'/wp-content/themes/digital_israel/Digital_wizard/functions.php',
+                 method: 'POST',
+                 data: form_data,
+                 crossDomain: true,
+                 success: function( data ) {
+                    // console.log(data);
+                    var QuestionsIds_ = new Array();
+                    var Questions_ = new Array();
+                    data.forEach(function(element) {
+                      QuestionsIds_.push(element[1]);
+                      Questions_.push(element[0]);
+                      // console.log('QuestionsIds',QuestionsIds_);
+                      // console.log('Questions',Questions_);
+                    });
+
+                    vm.QuestionsIds = QuestionsIds_;
+                    vm.Questions = Questions_;
+                 },
+                 error: function( error ) {
+                     console.log( 'selectQuestions',error );
+                 }
+            });
+
+        }
+    });
+
+</script>
+
+<?php
+get_footer();
+
+
+
+

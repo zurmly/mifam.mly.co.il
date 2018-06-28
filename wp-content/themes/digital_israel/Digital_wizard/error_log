@@ -1,0 +1,85 @@
+[13-Jun-2018 15:45:39 Asia/Jerusalem] PHP Notice:  Undefined index: userID in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 53
+[13-Jun-2018 15:53:12 Asia/Jerusalem] PHP Notice:  Undefined index: userID in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 53
+[13-Jun-2018 16:52:00 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:52:00 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:52:00 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 16:54:38 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:54:38 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:54:38 Asia/Jerusalem] PHP Notice:  Undefined index: ANSWERS in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 53
+[13-Jun-2018 16:55:25 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:55:25 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:55:25 Asia/Jerusalem] PHP Notice:  Undefined index: ANSWERS in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 53
+[13-Jun-2018 16:55:44 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:55:44 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:55:44 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 16:56:04 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:56:04 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:56:04 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 16:56:41 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:56:41 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:56:41 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 16:57:11 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:57:11 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:57:11 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 16:57:45 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:57:45 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:58:16 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:58:16 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:59:51 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 16:59:51 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 17:00:04 Asia/Jerusalem] PHP Notice:  Undefined variable: SendResult in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 54
+[13-Jun-2018 17:00:46 Asia/Jerusalem] PHP Notice:  Undefined variable: SendResult in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 54
+[13-Jun-2018 17:00:59 Asia/Jerusalem] PHP Notice:  Undefined variable: SendResult in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 54
+[13-Jun-2018 17:02:38 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 17:02:38 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 17:02:38 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 17:03:59 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 17:03:59 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 17:03:59 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 17:04:10 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 17:04:10 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 17:04:10 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 34
+[13-Jun-2018 17:05:11 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 60
+[13-Jun-2018 17:05:23 Asia/Jerusalem] PHP Warning:  main(): Couldn't fetch mysqli in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 61
+[13-Jun-2018 17:05:23 Asia/Jerusalem] PHP Notice:  Undefined variable: result in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 35
+[13-Jun-2018 17:05:23 Asia/Jerusalem] PHP Fatal error:  Call to a member function fetch_object() on null in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 35
+[13-Jun-2018 17:06:30 Asia/Jerusalem] PHP Fatal error:  Call to a member function close() on boolean in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 17:12:59 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 56
+[13-Jun-2018 17:12:59 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 56
+[13-Jun-2018 17:13:29 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 56
+[13-Jun-2018 17:13:29 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 56
+[13-Jun-2018 17:13:48 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 56
+[13-Jun-2018 17:13:48 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 56
+[13-Jun-2018 17:14:05 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 56
+[13-Jun-2018 17:14:05 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected '.' in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 56
+[13-Jun-2018 17:14:18 Asia/Jerusalem] PHP Fatal error:  Call to a member function close() on boolean in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 59
+[13-Jun-2018 17:15:37 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 53
+[13-Jun-2018 17:15:37 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 53
+[13-Jun-2018 17:16:00 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 53
+[13-Jun-2018 17:16:00 Asia/Jerusalem] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 53
+[13-Jun-2018 17:19:38 Asia/Jerusalem] PHP Fatal error:  Call to a member function close() on boolean in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 63
+[13-Jun-2018 17:20:40 Asia/Jerusalem] PHP Fatal error:  Call to a member function close() on boolean in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 63
+[13-Jun-2018 17:22:06 Asia/Jerusalem] PHP Fatal error:  Call to a member function close() on boolean in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 63
+[13-Jun-2018 17:56:52 Asia/Jerusalem] PHP Notice:  Undefined index: ANSWERS in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 55
+[13-Jun-2018 17:56:52 Asia/Jerusalem] PHP Warning:  Invalid argument supplied for foreach() in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 55
+[13-Jun-2018 17:56:52 Asia/Jerusalem] PHP Notice:  Undefined variable: New_Record_ids in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 65
+[13-Jun-2018 17:58:49 Asia/Jerusalem] PHP Notice:  Undefined index: ANSWERS in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 55
+[13-Jun-2018 17:58:49 Asia/Jerusalem] PHP Warning:  Invalid argument supplied for foreach() in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 55
+[13-Jun-2018 17:58:49 Asia/Jerusalem] PHP Notice:  Undefined variable: New_Record_ids in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 65
+[13-Jun-2018 18:19:30 Asia/Jerusalem] PHP Notice:  Undefined index: token in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 11
+[13-Jun-2018 18:19:30 Asia/Jerusalem] PHP Notice:  Undefined index: token in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 11
+[14-Jun-2018 11:26:24 Asia/Jerusalem] PHP Notice:  Undefined variable: questions in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 40
+[14-Jun-2018 11:26:24 Asia/Jerusalem] PHP Notice:  Undefined variable: ids in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 41
+[14-Jun-2018 11:26:24 Asia/Jerusalem] PHP Notice:  Undefined variable: questions in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 40
+[14-Jun-2018 11:26:24 Asia/Jerusalem] PHP Notice:  Undefined variable: ids in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 41
+[14-Jun-2018 11:26:24 Asia/Jerusalem] PHP Fatal error:  Call to a member function close() on boolean in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 43
+[14-Jun-2018 11:27:01 Asia/Jerusalem] PHP Notice:  Undefined variable: questions in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 40
+[14-Jun-2018 11:27:01 Asia/Jerusalem] PHP Notice:  Undefined variable: ids in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 41
+[14-Jun-2018 11:27:01 Asia/Jerusalem] PHP Notice:  Undefined variable: questions in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 40
+[14-Jun-2018 11:27:01 Asia/Jerusalem] PHP Notice:  Undefined variable: ids in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 41
+[14-Jun-2018 11:27:01 Asia/Jerusalem] PHP Fatal error:  Call to a member function close() on boolean in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 43
+[14-Jun-2018 11:27:22 Asia/Jerusalem] PHP Notice:  Undefined variable: questions in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 40
+[14-Jun-2018 11:27:22 Asia/Jerusalem] PHP Notice:  Undefined variable: ids in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 41
+[14-Jun-2018 11:27:22 Asia/Jerusalem] PHP Notice:  Undefined variable: questions in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 40
+[14-Jun-2018 11:27:22 Asia/Jerusalem] PHP Notice:  Undefined variable: ids in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 41
+[14-Jun-2018 11:27:22 Asia/Jerusalem] PHP Fatal error:  Call to a member function close() on boolean in /home/mlycoil/api-wp.mly.co.il/wp-content/themes/digital_israel/Digital_wizard/functions.php on line 43
