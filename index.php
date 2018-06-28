@@ -1,5 +1,6 @@
 <?php
-echo "3333";
+
+echo "444";
 
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
