@@ -171,4 +171,19 @@ function get_select_val($fieldName){
     echo "<option $selected>$value</option>";    
   }
 }
+
+/*********************
+9: menus setting
+ *********************/
+function wpb_custom_new_menu() {
+    register_nav_menus(
+        array(
+            'top-menu' => __( 'Top Menu' ),
+            //'extra-menu' => __( 'Extra Menu' )
+        )
+    );
+}
+add_action( 'init', 'wpb_custom_new_menu' );
+
+
  ?>

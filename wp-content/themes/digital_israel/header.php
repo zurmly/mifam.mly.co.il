@@ -38,21 +38,22 @@
     <nav class="navbar">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="http://api-wp.mly.co.il">Home</a></li>
-<!--                <li class="dropdown">-->
-<!--                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>-->
-<!--                    <ul class="dropdown-menu">-->
-<!--                        <li><a href="#">Page 1-1</a></li>-->
-<!--                        <li><a href="#">Page 1-2</a></li>-->
-<!--                        <li><a href="#">Page 1-3</a></li>-->
-<!--                    </ul>-->
-<!--                </li>-->
-                <li><a href="http://api-wp.mly.co.il/%D7%94%D7%95%D7%A1%D7%A4%D7%AA-%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/">הוספת פרויקט</a></li>
-                <li><a href="http://api-wp.mly.co.il/%D7%91%D7%93%D7%99%D7%A7%D7%94-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99%D7%AA/">בדיקה דיגיטלית</a></li>
-                <li><a href="http://api-wp.mly.co.il/search/">עמוד חיפוש</a></li>
-            </ul>
-        </div>
+            <!--        <div class="collapse navbar-collapse" id="myNavbar">-->
+            <!--            <ul class="nav navbar-nav">-->
+            <!--                <li class="active"><a href="http://api-wp.mly.co.il">Home</a></li>-->
+            <!--                <li><a href="http://api-wp.mly.co.il/%D7%94%D7%95%D7%A1%D7%A4%D7%AA-%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/">הוספת פרויקט</a></li>-->
+            <!--                <li><a href="http://api-wp.mly.co.il/%D7%91%D7%93%D7%99%D7%A7%D7%94-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99%D7%AA/">בדיקה דיגיטלית</a></li>-->
+            <!--                <li><a href="http://api-wp.mly.co.il/search/">עמוד חיפוש</a></li>-->
+            <!--            </ul>-->
+            <!--        </div>-->
+            <?php
+            wp_nav_menu( array(
+                    'theme_location' => 'top-menu',
+                    'container' => 'ul',
+                    'menu_class' => 'nav navbar-nav'
+                )
+            );
+            ?>
     </div>
 </nav>
 </div>
