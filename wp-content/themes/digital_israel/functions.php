@@ -2,11 +2,13 @@
 session_start();
 if(!isset($_SESSION['token'])){
   $_SESSION['token'] = md5(rand(1000,9999)); //you can use any encryption
-  var_dump($_SESSION['token']);  
+//  var_dump($_SESSION['token']);
 }
 define('SITEURL', 'http://api-wp.mly.co.il');
 define('THEMEURL', 'http://api-wp.mly.co.il/wp-content/themes/digital_israel');
-require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/digital_israel/kint-master/Kint.class.php';
+// var_dump($_SERVER['DOCUMENT_ROOT']);
+// exit;
+// require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/digital_israel/kint-master/Kint.class.php';
 
 /**********************************
 1: Register routes For API
@@ -172,18 +174,18 @@ function get_select_val($fieldName){
   }
 }
 
+
 /*********************
 9: menus setting
  *********************/
 function wpb_custom_new_menu() {
-    register_nav_menus(
-        array(
-            'top-menu' => __( 'Top Menu' ),
-            //'extra-menu' => __( 'Extra Menu' )
-        )
-    );
+	register_nav_menus(
+		array(
+			'top-menu' => __( 'Top Menu' ),
+			//'extra-menu' => __( 'Extra Menu' )
+		)
+	);
 }
 add_action( 'init', 'wpb_custom_new_menu' );
-
 
  ?>
