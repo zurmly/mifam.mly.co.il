@@ -1,6 +1,6 @@
 <?php
 
-echo "localhost";
+echo "<h1>dev</h1>";
 
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
