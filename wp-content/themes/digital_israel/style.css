@@ -308,11 +308,12 @@ ul#project-status-list {
     border: none;
 }
 header {
-    min-height: 100px;
+    min-height: 80px;
     float: right;
     display: block;
     width: 100%;
 }
+
 .header-right {
     float: right;
     display: block;
@@ -338,7 +339,7 @@ header {
     float: right;
     display: block;
     width: 100%;
-    background: #4a9dce;
+    background: #726be1;
     max-height: 50px;
 }
 

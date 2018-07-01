@@ -35,11 +35,34 @@ define('DB_PASSWORD', 'mifampassword');
 /** MySQL hostname */
 define('DB_HOST', '81.218.83.105');
 
+//define('DB_NAME', 'mifam');
+//
+///** MySQL database username */
+//define('DB_USER', 'root');
+//
+///** MySQL database password */
+//define('DB_PASSWORD', 'Murcrfv1983');
+//
+///** MySQL hostname */
+//define('DB_HOST', 'localhost');
+
+
+
+
+
+//
+//$mysqli = new mysqli('81.218.83.105', DB_USER , DB_PASSWORD , DB_USER);
+//
+//var_dump($mysqli);exit;
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+define('WP_HOME','http://127.0.0.1/~tzurbracha/mifam.mly.co.il/mifam.mly.co.il/');
+define('WP_SITEURL','http://127.0.0.1/~tzurbracha/mifam.mly.co.il/mifam.mly.co.il/');
 
 /**#@+
  * Authentication Unique Keys and Salts.
