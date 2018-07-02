@@ -23,7 +23,12 @@
 <header class="">
     <div class="container">
         <div class="header-right">
-            <img src="<?=THEMEURL?>/images/2.jpg" height="80">
+            <a href="#" class="btn btn-1">התחבר ></a>
+            <a href="#" style="
+                color: #000;
+                margin-right: 20px;
+                font-weight: bold;
+            ">הרשם עכשיו &gt;</a>
         </div>
         <div class="header-left">
             <img src="<?=THEMEURL?>/images/1.jpg" height="80">
@@ -38,7 +43,7 @@
     <nav class="navbar">
     <div class="container-fluid">
 <!--        <div class="collapse navbar-collapse" id="myNavbar">-->
-<!--            <ul class="nav navbar-nav">-->
+<!--            <ul header-rightclass="nav navbar-nav">-->
 <!--                <li class="active"><a href="http://api-wp.mly.co.il">Home</a></li>-->
 <!--                <li><a href="http://api-wp.mly.co.il/%D7%94%D7%95%D7%A1%D7%A4%D7%AA-%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98/">הוספת פרויקט</a></li>-->
 <!--                <li><a href="http://api-wp.mly.co.il/%D7%91%D7%93%D7%99%D7%A7%D7%94-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99%D7%AA/">בדיקה דיגיטלית</a></li>-->
@@ -49,7 +54,7 @@
 wp_nav_menu( array(
 	'theme_location' => 'top-menu',
 	'container' => 'ul',
-	'menu_class' => 'nav navbar-nav'
+	'menu_class' => 'top-menu'
 	)
 );
 ?>

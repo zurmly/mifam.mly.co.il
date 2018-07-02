@@ -1,4 +1,5 @@
 <?php
+echo "dev";
 /**
  * Dashboard Administration Screen
  *

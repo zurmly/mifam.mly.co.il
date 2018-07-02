@@ -6,7 +6,6 @@
  *
  * @package digital_israel
  */
-
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
