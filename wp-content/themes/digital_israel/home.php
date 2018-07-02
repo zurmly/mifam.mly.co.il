@@ -25,7 +25,7 @@ get_header();
                                         class="form-control search-input"
                                         name="people"
                                         placeholder="חפשו פרויקט / תחום טכנולגי / עיר או כל מידע אחר ... אנחנו נמצא אותו :)"
-                                        url="http://api-wp.mly.co.il/wp-json/search_post_type/v1/search"
+                                        url="<?=WP_SITEURL?>/wp-json/search_post_type/v1/search"
                                         param="to_search"
                                         limit="5"
                                         anchor="post_title"
