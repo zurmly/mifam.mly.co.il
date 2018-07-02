@@ -1,6 +1,4 @@
 <?php
-
-
 /**
  * The base configuration for WordPress
  *
@@ -22,42 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'mifammlyco_DB');
+define('DB_NAME', 'database_name_here');
 
 /** MySQL database username */
-define('DB_USER', 'mifammlyco_USER');
+define('DB_USER', 'username_here');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'mifampassword');
+define('DB_PASSWORD', 'password_here');
 
 /** MySQL hostname */
-define('DB_HOST', '81.218.83.105');
-
-//define('DB_NAME', 'mifam');
-//
-///** MySQL database username */
-//define('DB_USER', 'root');
-//
-///** MySQL database password */
-//define('DB_PASSWORD', 'Murcrfv1983');
-//
-///** MySQL hostname */
-//define('DB_HOST', 'localhost');
-
-define('WP_HOME','http://dev.mifam.mly.co.il');
-define('WP_SITEURL','http://dev.mifam.mly.co.il');
-
-
-
-
-
-//
-//$mysqli = new mysqli('81.218.83.105', DB_USER , DB_PASSWORD , DB_USER);
-//
-//var_dump($mysqli);exit;
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -71,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '#so6Q6/0.mfm@^@nF|%Bj`YV3{bVZ{}NN?87R2Hh<O<X&]pjyWp~;#[(PR9<vua.');
-define('SECURE_AUTH_KEY',  'X)<!6WqY;6HU@9JKo{3Ww3FaHJgKs6|; /:E-/s?|D^:>zROPSQ0:?>Ik5.>}S}7');
-define('LOGGED_IN_KEY',    '[Ra3FJUvxO[Pjf-B6Z$Brs]B^-,@RIUf#gfk~jcMm%t[5.E7#qA_}qdI<Hewe7b<');
-define('NONCE_KEY',        'P-pbvpEp,SFmQh$q~a,$B;Z8^i~)S~;@|lq^L?e(k^8>CW8gKi?TlYJ)6 OEjtl-');
-define('AUTH_SALT',        '2|SEtg*5|Q.R:.c@6<)?3RDRb!6bTeafP.23@.|CO$Undv:`hv aI=IvRHpo6+X~');
-define('SECURE_AUTH_SALT', 'X6&f/,#drAiQu=[Jt|]ib,O5).Q@(-Hrp)lurYOIF>/mG/cW0ZYR{w,ckp%ESE|6');
-define('LOGGED_IN_SALT',   '7=aoKJw6?^pEQ7c+zVA?^)E778p!oO1V)psO.%2M=T^8]_bGM8JgCE^W2+fb-S, ');
-define('NONCE_SALT',       ')9O):v^*=92/jN1i$bFfa`}-k7~N7/,|,GAc-Dux165FVDe_KV@045.trE8u-7.Q');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
