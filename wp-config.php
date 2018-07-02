@@ -1,7 +1,5 @@
 <?php
 
-exit('asdads');
-
 
 /**
  * The base configuration for WordPress
