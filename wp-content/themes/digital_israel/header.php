@@ -24,11 +24,7 @@
     <div class="container">
         <div class="header-right">
             <a href="#" class="btn btn-1">התחבר ></a>
-            <a href="#" style="
-                color: #000;
-                margin-right: 20px;
-                font-weight: bold;
-            ">הרשם עכשיו &gt;</a>
+            <a href="#" class="regNowLink">הרשם עכשיו &gt;</a>
         </div>
         <div class="header-left">
             <img src="<?=THEMEURL?>/images/1.jpg" height="80">
@@ -41,7 +37,6 @@
 <div class="main-menu-background">
     <div class="container">
     <nav class="navbar">
-    <div class="container-fluid">
 <!--        <div class="collapse navbar-collapse" id="myNavbar">-->
 <!--            <ul header-rightclass="nav navbar-nav">-->
 <!--                <li class="active"><a href="http://api-wp.mly.co.il">Home</a></li>-->
@@ -58,9 +53,11 @@ wp_nav_menu( array(
 	)
 );
 ?>
-
-    </div>
-</nav>
+    </nav>
 </div>
+    <div class="shareUs">
+        <img src="wp-content/themes/digital_israel/images/hat.png" alt="">
+        <p>שתפו אותנו<br>בפרויקט<br>שלכם!</p>
+    </div>
 </div>
 
