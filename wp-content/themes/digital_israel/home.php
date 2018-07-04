@@ -44,7 +44,7 @@ get_header();
             <div class="row home-search-link">
                 <div class="search-link-box">
                     <div class="search-link-icon">
-
+                        <img src="wp-content/themes/digital_israel/images/star.png" alt="">
                     </div>
                     <div class="search-link-text">
                         חדש במאגר
@@ -54,62 +54,62 @@ get_header();
                 </div>
                 <div class="search-link-box">
                     <div class="search-link-icon">
-
+                        <img src="wp-content/themes/digital_israel/images/bag.png" alt="">
                     </div>
                     <div class="search-link-text">
-                        חדש במאגר
+מתווה מקצועי
                         <br>
-                        (8)
+                        (3)
                     </div>
                 </div>
                 <div class="search-link-box">
                     <div class="search-link-icon">
-
+                        <img src="wp-content/themes/digital_israel/images/calendar.png" alt="">
                     </div>
                     <div class="search-link-text">
-                        חדש במאגר
+                        ניהול
                         <br>
-                        (8)
+                        (5)
                     </div>
                 </div>
                 <div class="search-link-box">
                     <div class="search-link-icon">
-
+                        <img src="wp-content/themes/digital_israel/images/book.png" alt="">
                     </div>
                     <div class="search-link-text">
-                        חדש במאגר
+                        חינוך
                         <br>
-                        (8)
+                        (12)
                     </div>
                 </div>
                 <div class="search-link-box">
                     <div class="search-link-icon">
-
+                        <img src="wp-content/themes/digital_israel/images/sites.png" alt="">
                     </div>
                     <div class="search-link-text">
-                        חדש במאגר
+                        אתרים
                         <br>
-                        (8)
+                        (5)
                     </div>
                 </div>
                 <div class="search-link-box">
                     <div class="search-link-icon">
-
+                        <img src="wp-content/themes/digital_israel/images/health.png" alt="">
                     </div>
                     <div class="search-link-text">
-                        חדש במאגר
+                        בריאות
                         <br>
-                        (8)
+                        (7)
                     </div>
                 </div>
                 <div class="search-link-box">
                     <div class="search-link-icon">
-
+                        <img src="wp-content/themes/digital_israel/images/manpower.png" alt="">
                     </div>
                     <div class="search-link-text">
-                        חדש במאגר
+                        כח אדם
                         <br>
-                        (8)
+                        (9)
                     </div>
                 </div>
 
@@ -243,108 +243,145 @@ get_header();
     </section>
 
     <section id="section-4">
-        <div class="container" style=" width: 900px;">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="<?= THEMEURL ?>/images/4.jpg" alt="">
+        <div class="container">
+            <h2 class="sectionTitle">כדאי לדעת...</h2>
+            <p class="subTitle">
+                לכל אחת מהן יש פרוייקטים דיגיטלים שיכולים לעניין גם אתכם,
+                <br>
+                קבלו את הערים הפעילות ביותר באתר
+            </p>
+            <div class="row mostActiveCities">
+                <div class="mostActiveCity">
+                    <div class="imageWrapper">
+                        <p class="projectsNumber">12</p>
+                        <p class="projectsText">פרויקטים</p>
+                    </div>
+                    <div class="mostActiveData">
+                        <h4 class="mostTitle">חיפה</h4>
+                        <p class="mostText">המטרה להקים מערכת GIS אזורית ככלי לקבלת החלטות אסטרטגיות עבור רשויות
+                            האשכול</p>
+                        <a href="#" class="btn mostButton">קרא עוד</a>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="<?= THEMEURL ?>/images/6.jpg" alt="">
+                <div class="mostActiveCity">
+                    <div class="imageWrapper">
+                        <p class="projectsNumber">12</p>
+                        <p class="projectsText">פרויקטים</p>
+                    </div>
+                    <div class="mostActiveData">
+                        <h4 class="mostTitle">חיפה</h4>
+                        <p class="mostText">המטרה להקים מערכת GIS אזורית ככלי לקבלת החלטות אסטרטגיות עבור רשויות
+                            האשכול</p>
+                        <a href="#" class="btn mostButton">קרא עוד</a>
+                    </div>
                 </div>
-
+                <div class="mostActiveCity">
+                    <div class="imageWrapper">
+                        <p class="projectsNumber">12</p>
+                        <p class="projectsText">פרויקטים</p>
+                    </div>
+                    <div class="mostActiveData">
+                        <h4 class="mostTitle">חיפה</h4>
+                        <p class="mostText">המטרה להקים מערכת GIS אזורית ככלי לקבלת החלטות אסטרטגיות עבור רשויות
+                            האשכול</p>
+                        <a href="#" class="btn mostButton">קרא עוד</a>
+                    </div>
+                </div>
+                <div class="mostActiveCity">
+                    <div class="imageWrapper">
+                        <p class="projectsNumber">12</p>
+                        <p class="projectsText">פרויקטים</p>
+                    </div>
+                    <div class="mostActiveData">
+                        <h4 class="mostTitle">חיפה</h4>
+                        <p class="mostText">המטרה להקים מערכת GIS אזורית ככלי לקבלת החלטות אסטרטגיות עבור רשויות
+                            האשכול</p>
+                        <a href="#" class="btn mostButton">קרא עוד</a>
+                    </div>
+                </div>
+                <div class="mostActiveCity">
+                    <div class="imageWrapper howMuchDigital">
+                    </div>
+                    <div class="mostActiveData">
+                        <h4 class="mostTitle">כמה העיר שלך דיגיטלית?</h4>
+                        <p class="mostText">אז יש לכם מנהל דיגיטל ואתם ממש פעילים בפייסבוק... האם זה אומר שאתם סופר דיגיטליים? הכנו לכם שאלון קצר שייתן תשובה בנושא</p>
+                        <a href="#" class="btn mostButtonForm">לשאלון המלא ></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
     <section id="section-5">
-        <div class="container" style=" width: 900px;">
+        <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>מידע שימושי</h2>
+                <div class="col-md-6">
+                    <img src="wp-content/themes/digital_israel/images/mainEvenImage.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="sectionTitle mainEventTitle">האירוע השנתי למנהלי שיווק<br>בדיגיטל נפתחה ההרשמה!</h2>
+                    <p class="mainEvent">
+                        לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר גק ליץ, נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום.
+                    </p>
+                    <a href="#" class="btn mainEventButton">לפרטים ולהרשמה ></a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="<?= THEMEURL ?>/images/7.jpg" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img src="<?= THEMEURL ?>/images/7.jpg" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img src="<?= THEMEURL ?>/images/7.jpg" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="<?= THEMEURL ?>/images/7.jpg" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img src="<?= THEMEURL ?>/images/7.jpg" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img src="<?= THEMEURL ?>/images/7.jpg" alt="">
-                </div>
-            </div>
-
         </div>
     </section>
 
     <section id="section-6">
-        <div class="container" style="">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>הערים הכי פעילות באתר</h2>
-                    <div>
-                        לכל אחת מהן יש פרוייקטים דיגיטלים שיעולים לעניין גם אתכם,
-                        <BR>
-                        קבלו את הערים הפעילות ביותר באתר
-                    </div>
+        <div class="container">
+            <h2 class="sectionTitle dataSection"><span class="projNumber">361</span> פרויקטים באתר</h2>
+            <h4 class="subTitle">פרויקטים ששווה להציץ בהם</h4>
+            <div class="dataItemsWrapper">
+                <div class="dataItem">
+                    <h4 class="dataItemTitle">קול קורא להגשת מועמדות<br>לשיפוץ גינות עירוניות</h4>
+                    <p class="dataItemDate">ת.עדכון אחרון: 12.3.18</p>
+                    <p class="dataItemText">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה.</p>
+                    <a href="#" class="readMoreDataItem">קרא עוד</a>
+                </div>
+                <div class="dataItem">
+                    <h4 class="dataItemTitle">קול קורא להגשת מועמדות<br>לשיפוץ גינות עירוניות</h4>
+                    <p class="dataItemDate">ת.עדכון אחרון: 12.3.18</p>
+                    <p class="dataItemText">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה.</p>
+                    <a href="#" class="readMoreDataItem">קרא עוד</a>
+                </div>
+                <div class="dataItem">
+                    <h4 class="dataItemTitle">קול קורא להגשת מועמדות<br>לשיפוץ גינות עירוניות</h4>
+                    <p class="dataItemDate">ת.עדכון אחרון: 12.3.18</p>
+                    <p class="dataItemText">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה.</p>
+                    <a href="#" class="readMoreDataItem">קרא עוד</a>
+                </div>
+                <div class="dataItem">
+                    <h4 class="dataItemTitle">קול קורא להגשת מועמדות<br>לשיפוץ גינות עירוניות</h4>
+                    <p class="dataItemDate">ת.עדכון אחרון: 12.3.18</p>
+                    <p class="dataItemText">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה.</p>
+                    <a href="#" class="readMoreDataItem">קרא עוד</a>
+                </div>
+                <div class="dataItem">
+                    <h4 class="dataItemTitle">קול קורא להגשת מועמדות<br>לשיפוץ גינות עירוניות</h4>
+                    <p class="dataItemDate">ת.עדכון אחרון: 12.3.18</p>
+                    <p class="dataItemText">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה.</p>
+                    <a href="#" class="readMoreDataItem">קרא עוד</a>
+                </div>
+                <div class="dataItem">
+                    <h4 class="dataItemTitle">קול קורא להגשת מועמדות<br>לשיפוץ גינות עירוניות</h4>
+                    <p class="dataItemDate">ת.עדכון אחרון: 12.3.18</p>
+                    <p class="dataItemText">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה.</p>
+                    <a href="#" class="readMoreDataItem">קרא עוד</a>
                 </div>
             </div>
-            <div class="row" style=" margin: 40px 0; ">
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/8.jpg" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/8.jpg" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/8.jpg" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/8.jpg" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/8.jpg" alt="">
-                </div>
-            </div>
+            <a href="#" class="toAllData">למאגר המידע ></a>
         </div>
     </section>
-
-
-    <section id="section-7">
-        <div class="section-7-line"></div>
-        <div class="container" style="">
-            <div class="row" style=" margin: 40px 0; ">
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/9.jpg" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/9.jpg" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/9.jpg" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/9.jpg" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="<?= THEMEURL ?>/images/9.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="floatButtonWrapper">
+    <div class="floatImage"></div>
+    <p class="floatText">
+        בדוק עד כמה<br>
+        הרשות שלך<br>
+        דיגיטלית!
+    </p>
+    <a href="#" class="btn floatButton">בואו נתחיל ></a>
+</div>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.14/vue.min.js"></script>
     <!-- <script src="./vue-autocomplete.js"></script> -->
