@@ -5,7 +5,7 @@
 get_header();
 ?>
 
-
+<!--<div class="hooverImage"></div>-->
     <section class="home-banner text-white">
         <div class="container text-center">
 
@@ -33,8 +33,7 @@ get_header();
                                         model="vModelLike">
                                 </autocomplete>
 
-                                <button type="submit">
-                                    <i class="fa fa-search"></i>
+                                <button type="submit" class="searchButton">
                                 </button>
                             </form>
                         </div>
@@ -49,7 +48,7 @@ get_header();
                     <div class="search-link-text">
                         חדש במאגר
                         <br>
-                        (8)
+                        <span>(8)</span>
                     </div>
                 </div>
                 <div class="search-link-box">
@@ -59,7 +58,7 @@ get_header();
                     <div class="search-link-text">
 מתווה מקצועי
                         <br>
-                        (3)
+                        <span>(8)</span>
                     </div>
                 </div>
                 <div class="search-link-box">
@@ -69,7 +68,7 @@ get_header();
                     <div class="search-link-text">
                         ניהול
                         <br>
-                        (5)
+                        <span>(8)</span>
                     </div>
                 </div>
                 <div class="search-link-box">
@@ -79,7 +78,7 @@ get_header();
                     <div class="search-link-text">
                         חינוך
                         <br>
-                        (12)
+                        <span>(8)</span>
                     </div>
                 </div>
                 <div class="search-link-box">
@@ -89,7 +88,7 @@ get_header();
                     <div class="search-link-text">
                         אתרים
                         <br>
-                        (5)
+                        <span>(8)</span>
                     </div>
                 </div>
                 <div class="search-link-box">
@@ -99,7 +98,7 @@ get_header();
                     <div class="search-link-text">
                         בריאות
                         <br>
-                        (7)
+                        <span>(8)</span>
                     </div>
                 </div>
                 <div class="search-link-box">
@@ -109,7 +108,7 @@ get_header();
                     <div class="search-link-text">
                         כח אדם
                         <br>
-                        (9)
+                        <span>(8)</span>
                     </div>
                 </div>
 

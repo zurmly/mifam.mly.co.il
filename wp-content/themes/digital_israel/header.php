@@ -27,7 +27,7 @@
             <a href="#" class="regNowLink">הרשם עכשיו &gt;</a>
         </div>
         <div class="header-left">
-            <img src="<?=THEMEURL?>/images/1.jpg" height="80">
+            <img src="wp-content/themes/digital_israel/images/1.jpg" height="80">
         </div>
 
     </div>
